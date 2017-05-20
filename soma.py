@@ -1,10 +1,10 @@
 
 print("Digite uma sequência de valores terminada por zero.")
-produto = 1
+soma = 0
 
 valor = 1
 while valor != 0:
-    valor = int(input("Digite um valora ser multiplicado: "))
-    produto = produto * valor
+    valor = int(input("Digite um valora ser somado: "))
+    soma = soma + valor
 
-print("O produto dos valores digitados é: ", produto)
+print("A soma dos valores digitados é: ", soma)
