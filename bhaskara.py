@@ -4,10 +4,10 @@ def delta(a,b,c):
     return (b ** 2) - 4 * a * c
 
 def main():
-    a = float(input("Qual o valor de A da equação de segundo grau? "))
-    b = float(input("Qual o valor de B da equação de segundo grau? "))
-    c = float(input("Qual o valor de C da equação de segundo grau? "))
-    imprime_raizes(a,b,c)
+    a_digitado = float(input("Qual o valor de A da equação de segundo grau? "))
+    b_digitado = float(input("Qual o valor de B da equação de segundo grau? "))
+    c_digitado = float(input("Qual o valor de C da equação de segundo grau? "))
+    imprime_raizes(a_digitado,b_digitado,c_digitado)
 
 def imprime_raizes(a,b,c):
     d = delta(a,b,c)
